@@ -20,6 +20,11 @@ set(PROJECT_SOURCES
 
     #src
     src/main.cpp
+
+    #ui
+    src/ui/mainwindow.hpp
+    src/ui/mainwindow.cpp
+    src/ui/mainwindow.ui
 )
 
 qt_add_executable(FaisanIDE

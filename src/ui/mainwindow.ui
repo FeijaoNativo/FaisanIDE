@@ -6,20 +6,22 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>591</width>
-    <height>264</height>
+    <width>808</width>
+    <height>429</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Faisan IDE</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout"/>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>591</width>
+     <width>808</width>
      <height>21</height>
     </rect>
    </property>
@@ -27,10 +29,28 @@
     <property name="title">
      <string>&amp;File</string>
     </property>
+    <addaction name="action_New_project"/>
    </widget>
    <addaction name="menu_File"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QDockWidget" name="dockWidget">
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents"/>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_3">
+   <attribute name="dockWidgetArea">
+    <number>8</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_3"/>
+  </widget>
+  <action name="action_New_project">
+   <property name="text">
+    <string>&amp;New project</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

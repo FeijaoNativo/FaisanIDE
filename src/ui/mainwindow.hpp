@@ -7,6 +7,8 @@ namespace Ui {
 class MainWindow;
 }
 
+class QTabWidget;
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -19,6 +21,9 @@ public:
 private:
 
     Ui::MainWindow *ui = nullptr;
+
+    QTabWidget *twProjectFiles = nullptr;
+
 };
 
 #endif // MAINWINDOW_HPP
